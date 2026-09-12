@@ -1,0 +1,7 @@
+[submodule "chaa/lighter-prover-challenge"]
+	path = chaa/lighter-prover-challenge
+	url = https://github.com/Layr-Labs/lighter-prover-challenge
+
+[submodule "chaa/proximity-prize"]
+	path = chaa/proximity-prize
+	url = https://github.com/proximity-prize/proximity-prize
