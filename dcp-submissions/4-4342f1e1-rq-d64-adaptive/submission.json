@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "title": "RQ-D64-Adaptive: 64-level unequal-width tree in the adaptive malformed-copy model",
+  "claims": [
+    {
+      "statement": "For every N>=2 and s in Z/NZ, with n=ceil(log2 N), the ONE RQ-D64-Adaptive algorithm and exact all-n parameter rule in the joint evidence recover full s in the exact adaptive malformed-copy model (ModelA) of proof.md Section 0.1 and claim 4 below, including clean input and every admissible adaptive adversary with at most floor(3333*Q/(10000*n^(64))) malformed copies among ACTUAL Q acquired originals on every execution branch, with unconditional probability at least 1-2^-8>2/3. On EVERY branch including all retries, rejects, discards, failures, wrong numerical labels, partial inputs and cutoffs, its total charged sequential work T is O(2^(n/130)*n^(2243/65)*(log2 n)^2). This is its full uniform bit-length envelope for n>=2, with explicit finite costs at n=1 absorbed by absolute constants. Its exact envelope growth index is 1. All constants are independent of N,s and outcomes. This holds jointly with the other three resources and the same 3333/(10000*n^(64)) fractional-tolerance declaration for this algorithm/configuration.",
+      "score": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "evidence": [
+        "proof.md",
+        "source.md",
+        "resources.md"
+      ],
+      "structured": {
+        "version": "dcp-bounds-v4",
+        "comparator": "asymptotic-v1",
+        "scope": "dcp-cyclic-group-order",
+        "model": "dcp-uniform-clifford-t-bit-operations-v1",
+        "notation": "big-o",
+        "bound": {
+          "coefficient": "1",
+          "exponent": [
+            {
+              "coefficient": "1/130",
+              "nPower": "1",
+              "logPower": "0"
+            }
+          ],
+          "nPower": "2243/65",
+          "logPower": "2"
+        }
+      }
+    },
+    {
+      "statement": "For every N>=2 and s in Z/NZ, with n=ceil(log2 N), the ONE RQ-D64-Adaptive algorithm and exact all-n parameter rule in the joint evidence recover full s in the exact adaptive malformed-copy model (ModelA) of proof.md Section 0.1 and claim 4 below, including clean input and every admissible adaptive adversary with at most floor(3333*Q/(10000*n^(64))) malformed copies among ACTUAL Q acquired originals on every execution branch, with unconditional probability at least 1-2^-8>2/3. On EVERY branch including all retries, rejects, discards, failures, wrong numerical labels, partial inputs and cutoffs, its peak classical memory S_C is O(n^2) bits. This is its full uniform bit-length envelope for n>=2, with explicit finite costs at n=1 absorbed by absolute constants. Its exact envelope growth index is 0. All constants are independent of N,s and outcomes. This holds jointly with the other three resources and the same 3333/(10000*n^(64)) fractional-tolerance declaration for this algorithm/configuration.",
+      "score": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "evidence": [
+        "proof.md",
+        "source.md",
+        "resources.md"
+      ],
+      "structured": {
+        "version": "dcp-bounds-v4",
+        "comparator": "asymptotic-v1",
+        "scope": "dcp-cyclic-group-order",
+        "model": "dcp-uniform-clifford-t-bit-operations-v1",
+        "notation": "big-o",
+        "bound": {
+          "coefficient": "1",
+          "exponent": [],
+          "nPower": "2",
+          "logPower": "0"
+        }
+      }
+    },
+    {
+      "statement": "For every N>=2 and s in Z/NZ, with n=ceil(log2 N), the ONE RQ-D64-Adaptive algorithm and exact all-n parameter rule in the joint evidence recover full s in the exact adaptive malformed-copy model (ModelA) of proof.md Section 0.1 and claim 4 below, including clean input and every admissible adaptive adversary with at most floor(3333*Q/(10000*n^(64))) malformed copies among ACTUAL Q acquired originals on every execution branch, with unconditional probability at least 1-2^-8>2/3. On EVERY branch including all retries, rejects, discards, failures, wrong numerical labels, partial inputs and cutoffs, its peak quantum memory S_Q is O(n) qubits. This is its full uniform bit-length envelope for n>=2, with explicit finite costs at n=1 absorbed by absolute constants. Its exact envelope growth index is 0. All constants are independent of N,s and outcomes. This holds jointly with the other three resources and the same 3333/(10000*n^(64)) fractional-tolerance declaration for this algorithm/configuration.",
+      "score": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "evidence": [
+        "proof.md",
+        "source.md",
+        "resources.md"
+      ],
+      "structured": {
+        "version": "dcp-bounds-v4",
+        "comparator": "asymptotic-v1",
+        "scope": "dcp-cyclic-group-order",
+        "model": "dcp-uniform-clifford-t-bit-operations-v1",
+        "notation": "big-o",
+        "bound": {
+          "coefficient": "1",
+          "exponent": [],
+          "nPower": "1",
+          "logPower": "0"
+        }
+      }
+    },
+    {
+      "statement": "For every N>=2 and s in Z/NZ, with n=ceil(log2 N), the ONE RQ-D64-Adaptive algorithm and exact all-n parameter rule in the joint evidence recover full s in the exact adaptive malformed-copy model (ModelA) of proof.md Section 0.1 and claim 4 below, including clean input and every admissible adaptive adversary with at most floor(3333*Q/(10000*n^(64))) malformed copies among ACTUAL Q acquired originals on every execution branch, with unconditional probability at least 1-2^-8>2/3. On EVERY branch including all retries, rejects, discards, failures, wrong numerical labels, partial inputs and cutoffs, its total acquired original source copies Q, including all rejects and discards, is O(n^65). This is its full uniform bit-length envelope for n>=2, with explicit finite costs at n=1 absorbed by absolute constants. Its exact envelope growth index is 0. All constants are independent of N,s and outcomes. This holds jointly with the other three resources and the same 3333/(10000*n^(64)) fractional-tolerance declaration for this algorithm/configuration.",
+      "score": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "evidence": [
+        "proof.md",
+        "source.md",
+        "resources.md"
+      ],
+      "structured": {
+        "version": "dcp-bounds-v4",
+        "comparator": "asymptotic-v1",
+        "scope": "dcp-cyclic-group-order",
+        "model": "dcp-uniform-clifford-t-bit-operations-v1",
+        "notation": "big-o",
+        "bound": {
+          "coefficient": "1",
+          "exponent": [],
+          "nPower": "65",
+          "logPower": "0"
+        }
+      }
+    },
+    {
+      "statement": "For the SAME RQ-D64-Adaptive algorithm/configuration as all four resource claims, the guaranteed malformed-copy fraction is epsilon(n)=3333/(10000*n^(64)) in the exact adaptive malformed-copy model (ModelA) in proof.md Section 0.1 and the verbatim error_model text below. For every N>=2, every s in Z/NZ and every admissible adaptive adversary supplying at most floor(3333*Q/(10000*n^(64))) malformed copies among ACTUAL Q acquired originals on every execution branch (including rejects and discards), unconditional full-secret recovery succeeds with probability at least 1-2^-8>2/3 jointly with all four every-branch resource bounds. Clean input is included.",
+      "evidence": [
+        "proof.md",
+        "source.md",
+        "resources.md"
+      ],
+      "structured": {
+        "version": "dcp-fractional-error-tolerance-v1",
+        "expression": "3333/(10000*n^(64))",
+        "error_model": "Adaptive malformed-copy model with fraction epsilon(n). Parameters: N >= 2 is the modulus, s in Z/NZ the secret, n = ceil(log2 N), Q the total number of source copies the algorithm acquires, and epsilon(n) the tolerated malformed fraction. Copies are delivered one at a time in acquisition order j = 1, ..., Q. Before copy j is delivered, an adversary that knows N, s, the full description of the algorithm, and every measurement outcome the algorithm obtained before copy j is delivered, and that may hold, process and measure an arbitrary private quantum system, decides adaptively whether copy j is malformed; on every execution branch at most floor(epsilon(n) Q) of the Q acquired copies are malformed. A malformed copy is an arbitrary (n+1)-qubit state (the register shape of an ideal copy) supplied from the adversary's system: it may be pure or mixed, may be entangled with the adversary's remaining system and with other malformed copies, and may depend on all of the information above; it is not entangled with clean copies or with the algorithm's workspace, ancillas or internal random bits. Every copy that is not malformed is clean: at the moment of its delivery, a fresh ideal coset state rho_s = (1/N) sum_x |psi_{x,s}><psi_{x,s}| in tensor product with everything else (the adversary's system, all other copies and the algorithm's workspace), i.e. clean copies are independent ideal coset states. The adversary interacts with the algorithm only by supplying copies; after delivery it has no access to the copy or to the algorithm's quantum or classical systems. All measurements have countably many outcomes. The algorithm is not told which copies are malformed. Quantifiers: the guarantee must hold for every N >= 2 (no validity threshold), every s in Z/NZ and every such adversary, including the adversary that corrupts nothing (the clean problem): the algorithm outputs the entire s with probability at least 2/3, and the four declared resource bounds hold on every execution branch. The fraction bounds the number of malformed copies among acquired copies; it is not a per-copy corruption probability."
+      }
+    }
+  ],
+  "experiments": []
+}
